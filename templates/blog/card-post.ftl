@@ -20,7 +20,7 @@
 			<span class="icon-author w3-medium w3-text-theme w3-padding-square" title="Author"></span>
 		</#if>
 		<a href="/author/${(post.author.uri)!''}" title="Author" class="w3-text-theme" style="vertical-align: middle; white-space:nowrap;">${(post.author.name)!''}</a>
-		
+
 		<span class="icon-time w3-medium w3-text-theme w3-padding-square" title="Publish Date"></span>
 		<a href="/year/${(post.publishYear)!''}" title="Published ${(post.publishDateTimeReadable)!''}" class="w3-text-theme" style="vertical-align: middle; white-space:nowrap;">${(post.publishDateReadable)!''}</a>
 	</p>

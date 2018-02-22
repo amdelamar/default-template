@@ -2,13 +2,12 @@
 <div class="w3-container w3-padding-16 w3-theme-l4 w3-border-top w3-border-bottom no-print">
 	<p class="w3-large w3-margin-0">
 		<a href="/" class="w3-hover-text-black" title="Home">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-		<a href="/about" class="w3-hover-text-black" title="About">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="/author/" class="w3-hover-text-black" title="Authors">Authors</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 		<a href="/search" class="w3-hover-text-black" title="Search">Search</a>
 		<br/>
 		<a href="/category/" class="w3-hover-text-black" title="Categories">Categories</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 		<a href="/tag/" class="w3-hover-text-black" title="Tags">Tags</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 		<a href="/year/" class="w3-hover-text-black" title="Years">Years</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-		<a href="/author/" class="w3-hover-text-black" title="Authors">Authors</a>
 	</p>
 	<p>
 		<a class="nounderline" target="_blank" title="Facebook" href="${(facebook)!''}"><i class="icon-facebook w3-xlarge w3-hover-text-indigo"></i></a>&nbsp;&nbsp;

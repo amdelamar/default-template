@@ -5,21 +5,17 @@
 	<a class="w3-bar-item w3-hover-text-light-grey w3-btn" title="Categories" href="/category/"><span class="icon-folder w3-large w3-margin-right"></span>Categories</a>
 	<a class="w3-bar-item w3-hover-text-light-grey w3-btn" title="Tags" href="/tag/"><span class="icon-tag w3-large w3-margin-right"></span>Tags</a>
 	<a class="w3-bar-item w3-hover-text-light-grey w3-btn" title="Authors" href="/author/"><span class="icon-author w3-large w3-margin-right"></span>Authors</a>
-	<a class="w3-bar-item w3-hover-text-light-grey w3-btn" title="About" href="/about">About</a>
 	<p class="w3-container w3-center w3-small w3-text-theme">
 		${(copyright)!''}<br/>
 		Last Updated: ${(lastUpdated)!''}
 		<br/><br/>
-		<a href="/terms-of-use" title="Terms of Use">Terms</a> | 
-		<a href="/privacy-policy" title="Privacy Policy">Privacy</a><br/>
-		<a target="_Blank" href="https://oddox.org" title="Oddox.org">Powered by Oddox</a><br/> 
-		<a target="_Blank" href="https://www.ibm.com/cloud" title="IBM Cloud">Hosted on IBM Cloud</a>
+		<a target="_Blank" href="https://oddox.org" title="Oddox.org">Powered by Oddox</a><br/>
 	</p>
 </nav>
 <header>
 	<div class="page w3-container w3-theme-dark">
 		<div class="w3-col s2 w3-padding-4 w3-hide-medium w3-hide-large no-print w3-dropdown-hover">
-			<button class="w3-btn icon-menu w3-padding-square w3-theme-dark w3-text-theme w3-xxlarge" onclick="openSidebar()"></button>		
+			<button class="w3-btn icon-menu w3-padding-square w3-theme-dark w3-text-theme w3-xxlarge" onclick="openSidebar()"></button>
 		</div>
 		<div class="w3-col s10 m7 l7 w3-container w3-padding-0">
 			<a href="/"><img id="logo" src="/img/logo.png" alt="${(name)!'Oddox'}" /></a>

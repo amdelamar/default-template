@@ -8,14 +8,14 @@
 <body class="w3-theme-dark">
 
 	<#include "/templates/fragment/header.ftl">
-	
+
 	<article class="w3-theme-light">
 		<div class="page w3-row">
-		
+
 			<#include "/templates/fragment/tabs.ftl">
-			
+
 			<div id="page-content" class="w3-col m8 l8 w3-container w3-padding">
-				
+
 				<h1>Error</h1>
 				<p>Oops! An error occurred.</p>
 				
@@ -31,13 +31,13 @@
 					<span class="icon-cog w3-large w3-margin-right"></span>${(actionMessage)!''}</p>
 					</#list>
 				</#if>
-				
+
 				<br />
 				<p>
 					<a class="w3-btn w3-card w3-round w3-light-grey" href="javascript: window.history.back()">
 						<span class="icon-arrow-left w3-large"></span>&nbsp;&nbsp;Go Back</a>
 				</p>
-			
+
 			</div>
 		</div>
 	</article>
