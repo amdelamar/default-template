@@ -12,7 +12,7 @@
 
 <!-- Facebook Open Graph -->
 <meta property="og:url" content="${(url)!''}"/>
-<meta property="og:type" content="article"/>
+<meta property="og:type" content="website"/>
 <meta property="og:title" content="${(name)!'Oddox'}"/>
 <meta property="og:image" content="/images/icon-light-512.png"/>
 <meta property="og:image:type" content="image/png"/>
@@ -36,6 +36,6 @@
 <meta itemprop="image" content="/images/icon-light-512.png"/>
 
 <link rel="shortcut icon" href="/favicon.ico"/>
-<link rel="stylesheet" href="/vendor/osseous/1.2.0/osseous.min.css"/>
+<link rel="stylesheet" href="/vendor/osseous/2.0.0/osseous.min.css"/>
 <link rel="stylesheet" href="/vendor/icomoon/icomoon.css"/>
 <link rel="alternate" href="/rss" type="application/rss+xml" title="RSS"/>
