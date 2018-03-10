@@ -5,18 +5,15 @@
 
 <title>Tag ${(tag)!''} - ${(name)!'Oddox'}</title>
 </head>
-<body class="w3-theme-dark">
+<body>
 
 	<#include "/templates/fragment/header.ftl">
 
-	<article class="w3-theme-light">
-		<div class="page w3-row">
+	<article class="container padding-top-large margin-top-large">
+		<div class="row">
+			<div id="page-content" class="nine columns">
 
-			<#include "/templates/fragment/tabs.ftl">
-
-			<div id="page-content" class="w3-col m8 l8 w3-container w3-padding">
-
-				<h1 style="vertical-align: middle;"><span class="icon-time w3-text-theme"></span>&nbsp;Tag: ${(tag)!''}</h1>
+				<h1 style="vertical-align: middle;"><span class="icon-time"></span>&nbsp;Tag: ${(tag)!''}</h1>
 
 				<#if posts??>
 					<#if posts.size() == 1>
@@ -37,9 +34,8 @@
 						No posts were found with that tag.</p>
 				</#if>
 
-				<div class="w3-container w3-padding-left w3-padding-right w3-center">
-					<hr />
-					<p class="w3-large"><a href="/tag/">See more tags...</a></p>
+				<div class="text-center">
+					<p><a href="/tag/">See more tags...</a></p>
 				</div>
 			</div>
 
