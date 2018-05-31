@@ -1,14 +1,14 @@
-<div class="row round border padding-none margin-bottom">
-<div class="round padding">
+<div class="row round shade padding-none margin-bottom">
+<div class="round padding-right padding-bottom">
 <#if post.featured>
-	<span class="icon-star xlarge hover-text-yellow right padding" title="This is a featured post."></span>
+	<span class="icon-star xlarge hover-text-yellow float-right padding" title="This is a featured post."></span>
 </#if>
 <#if post.thumbnail?has_content>
 	<a href="/blog/${(post.uri)!''}">
 	<img class="round left margin-right margin-bottom" style="max-width:250px;" src="${(post.thumbnail)!''}" alt="Thumbnail ${(post.title)!''}" title="${(post.bannerCaption)!''}" onerror="this.src='/img/error-640.png';this.title='Failed to load image.'"/>
 	</a>
 </#if>
-	<h3 class="text-bold padding-none margin-none"><a href="/blog/${(post.uri)!''}">${(post.title)!''}</a></h3>
+	<h3 class="padding-none margin-none"><a href="/blog/${(post.uri)!''}" class="text-secondary">${(post.title)!''}</a></h3>
 	<p>${(post.description)!"This post doesn't have a description yet."}</p>
 
 	<p class="text-secondary margin-none">

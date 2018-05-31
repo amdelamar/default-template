@@ -1,6 +1,6 @@
 <nav id="sidebarMenu" class="sidebar shadow-right">
     <div class="nav-item-close">
-        <a class="right" title="Close Menu" href="javascript:closeSidebar()" aria-label="Close">
+        <a class="float-right" title="Close Menu" href="javascript:closeSidebar()" aria-label="Close">
             <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.757 14.657L8 9.414l5.243 5.243 1.414-1.414L9.414 8l5.243-5.243-1.414-1.414L8 6.586 2.757 1.343 1.343 2.757 6.586 8l-5.243 5.243z" fill-rule="evenodd"></path></svg>
         </a>
     </div>
@@ -21,7 +21,7 @@
 <nav class="navbar border-bottom">
     <div class="navbar-body container">
         <div class="nav-item-logo">
-            <a href="/"><span class="text-medium text-uppercase text-wide">${(name)!'Oddox'}</span></a>
+            <a href="/"><span class="text-medium text-uppercase text-wide">${(context.name)!'Oddox'}</span></a>
         </div>
         <div class="nav-small-menu">
             <a class="nav-item" title="Open Menu" href="javascript:openSidebar()">
@@ -38,17 +38,3 @@
         </div>
     </div>
 </nav>
-<#if actionErrors??>
-	<#list actionErrors as actionError>
-	<div class="border border-danger text-bold text-danger" style="float:left; position:absolute; left:50%; top:1%;">
-	${(actionError)!''}
-	</div>
-	</#list>
-</#if>
-<#if actionMessages??>
-	<#list actionMessages as actionMessage>
-	<div class="border border-success text-bold text-success" style="float:left; position:absolute; left:50%; top:1%;">
-	${(actionMessage)!''}
-	</div>
-	</#list>
-</#if>

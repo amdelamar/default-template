@@ -9,14 +9,14 @@
 		<a href="/tag/" class="text-secondary" title="Tags">Tags</a>
 	</p>
 	<p class="text-medium text-secondary">
-		<a target="_blank" title="Facebook" href="${(facebook)!''}"><i class="icon-facebook"></i></a>&nbsp;&nbsp;
-		<a target="_blank" title="Twitter" href="${(twitter)!''}"><i class="icon-twitter"></i></a>&nbsp;&nbsp;
-		<a target="_blank" title="GitHub" href="${(github)!''}"><i class="icon-github"></i></a>&nbsp;&nbsp;
-		<a target="_blank" title="Email" href="mailto:${(email)!''}"><i class="icon-mail"></i></a>&nbsp;&nbsp;
+		<a target="_blank" title="Facebook" href="${(context.facebook)!''}"><i class="icon-facebook"></i></a>&nbsp;&nbsp;
+		<a target="_blank" title="Twitter" href="${(context.twitter)!''}"><i class="icon-twitter"></i></a>&nbsp;&nbsp;
+		<a target="_blank" title="GitHub" href="${(context.github)!''}"><i class="icon-github"></i></a>&nbsp;&nbsp;
+		<a target="_blank" title="Email" href="mailto:${(context.email)!''}"><i class="icon-mail"></i></a>&nbsp;&nbsp;
 		<a target="_blank" title="RSS Feed" href="/rss"><i class="icon-rss"></i></a>
 	</p>
 	<p class="text-tertiary margin-none">
     <a class="text-tertiary" target="_blank" href="https://oddox.org" title="Oddox.org">Powered by Oddox</a>
 	</p>
 </footer>
-<script type="text/javascript" src="/vendor/osseous/2.0.0/osseous.min.js"></script>
+<script type="text/javascript" src="/vendor/osseous/2.5.0/osseous.min.js"></script>
